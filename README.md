@@ -15,20 +15,6 @@ The dataset contains 1.6 million tweets labeled as:
 
 The goal is to build a machine learning model that can classify tweet sentiment accurately using NLP techniques.
 
-## Project Structure
-
-Twitter-Sentiment-Analysis/
-
-notebooks/              Jupyter notebooks for EDA and experiments  
-src/                   
-src/dataloading/              Data handling utilities  
-src/preprocessing/     Text preprocessing scripts  
-src/models/             Model training scripts  
-
-data/                  Dataset (not pushed to GitHub)  
-requirements.txt  
-README.md  
-
 ## Dataset
 
 The Sentiment140 dataset contains:
@@ -46,32 +32,9 @@ text
 
 Raw tweets
 Text cleaning (removal of URLs, mentions, punctuation)
-Tokenization and normalization
-Feature extraction using TF-IDF or CountVectorizer
+Feature extraction using TF-IDF
 Model training using classification algorithms
 Model evaluation
-
-## Installation
-
-Clone the repository:
-git clone https://github.com/Anto-26/Twitter-Sentiment-Analysis.git
-cd Twitter-Sentiment-Analysis
-
-Create virtual environment:
-python -m venv venv
-source venv/bin/activate   (Mac/Linux)
-venv\Scripts\activate      (Windows)
-
-Install dependencies:
-pip install -r requirements.txt
-
-## Usage
-
-Run preprocessing script:
-python src/preprocessing/preprocess.py
-
-Run Jupyter notebook:
-jupyter notebook
 
 ## Results
 
@@ -81,16 +44,9 @@ Logistic Regression: 80–85% accuracy
 
 Results may vary depending on preprocessing and feature engineering.
 
-## Notes
-
-Dataset file (Sentiment140.csv) is not included due to large size.
-Place dataset inside the data folder locally.
-
-Virtual environment (venv/) is ignored using .gitignore.
-
 ## Author
 
-James Arnold
+James Anto Arnold James Sagayaraj
 
 ## License
 

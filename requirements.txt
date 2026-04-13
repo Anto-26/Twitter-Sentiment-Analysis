@@ -1,0 +1,14 @@
+
+numpy
+pandas
+scikit-learn
+nltk
+regex
+matplotlib
+seaborn
+wordcloud
+tweepy
+joblib
+fastapi
+uvicorn
+python-dotenv
